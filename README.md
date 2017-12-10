@@ -77,7 +77,8 @@ A single page consists of 2 parts:
 ---
 1. **font-awesome**
     * `a` with class name `fa` to create icon for contact.
-
+    * `background-color` set to be gray while `color` set to be white.
+    * icon on hover will change its `background-color` to corresponding color.
 ### Built With
 
 * Notepad++ 7.5.1
