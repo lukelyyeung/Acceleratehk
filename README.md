@@ -47,7 +47,7 @@ A single page consists of 2 parts:
 1. **Bootstrap**
     * `col-sm-4``div` for each hobby.
 
-### banner
+### Brief Biography
 ---
 1. **Bootstrap**
     * `col-sm-6``div` for photo and description.
@@ -60,7 +60,7 @@ A single page consists of 2 parts:
     * Then, use `.each` to hide all `.biography` which does not match ⋅⋅⋅the current `graphIndex`.
     * When `graphIndex` is less than 1, it will be assigned to `Numitem` which represents the last `.biography`.
 
-### slideShow
+### Photo Album
 ---
 1. **Bootstrap**
     * `col-sm-7``div` for photo and `col-sm-5` for description.
@@ -74,6 +74,7 @@ A single page consists of 2 parts:
     * The `showSlides(n)` also includes a part to remove classname ⋅⋅⋅`.active` from each `dot` children found in `.dot-bar`. And then add`.active` to the `dot` just clicked, which will make it changes ⋅⋅⋅color.
 
 ### footer
+---
 1. **font-awesome**
     * `a` with class name `fa` to create icon for contact.
 
